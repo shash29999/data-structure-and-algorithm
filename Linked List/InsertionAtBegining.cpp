@@ -41,7 +41,7 @@ int main()
     cout<< "How many Numbers you want to Enter ? ";
     cin >> n;
     for(int i = 0; i < n; i++){
-        cout<< "Input the Number: ";
+        cout<< "Enter the"<<i<<"th Number: ";
         cin >> x; 
         Head = insertAtBeg(Head, x);
         Print(Head);
